@@ -1,0 +1,23 @@
+
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+
+
+    @include flex-col;
+
+    main {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        justify-content: inherit;
+        align-items: inherit;
+    }
+
+    footer {
+        height: 50px;
+        width: 100%;
+    }
+}
