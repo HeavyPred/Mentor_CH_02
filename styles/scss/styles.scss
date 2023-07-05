@@ -14,11 +14,13 @@ body {
     width: 100vw;
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
+    font-stretch: expanded;
+    letter-spacing: 0.1rem;
 }
 
 #card {
     height: 400px;
-    width: 500px;
+    width: 550px;
 
     display: flex;
     justify-content: center;
@@ -37,6 +39,34 @@ body {
 
     background: $grad-back;
     border-radius: 30px;
+
+    h4, p {
+        color: $light-lavender;
+    }
+    h1 {
+        color: $white;
+        margin-bottom: 10px;
+    }
+    p:last-of-type {
+        width: 60%;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+.point {
+    height: 150px;
+    width: 150px;
+    background: $grad-circle;
+
+    margin: 30px 0;
+
+    @include flex-col;
+
+    border-radius: 100%;
+
+    color: $white;
+    font-size: 30px;
 }
 
 #sum-side {
@@ -44,6 +74,11 @@ body {
     width: 50%;
 
     @include flex-col;
+}
+
+.max {
+    color: $light-lavender !important;
+    font-size: 12px !important;
 }
 
 .attribution {

@@ -31,11 +31,13 @@ body {
   width: 100vw;
   font-family: "Outfit", sans-serif;
   font-size: 18px;
+  font-stretch: expanded;
+  letter-spacing: 0.1rem;
 }
 
 #card {
   height: 400px;
-  width: 500px;
+  width: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,6 +56,32 @@ body {
   background: linear-gradient(hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);
   border-radius: 30px;
 }
+#res-side h4, #res-side p {
+  color: hsl(241, 100%, 89%);
+}
+#res-side h1 {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 10px;
+}
+#res-side p:last-of-type {
+  width: 60%;
+  font-size: 12px;
+  text-align: center;
+}
+
+.point {
+  height: 150px;
+  width: 150px;
+  background: linear-gradient(hsl(256, 72%, 46%) 0%, hsla(241, 72%, 46%, 0) 100%);
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+}
 
 #sum-side {
   height: 100%;
@@ -62,6 +90,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.max {
+  color: hsl(241, 100%, 89%) !important;
+  font-size: 12px !important;
 }
 
 .attribution {
