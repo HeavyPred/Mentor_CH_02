@@ -79,8 +79,8 @@
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
+  height: 100dvh;
+  width: 100dvw;
   font-family: "Outfit", sans-serif;
   font-size: 18px;
   font-stretch: expanded;
@@ -168,6 +168,31 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  main {
+    height: 100dvh;
+    width: 100dvw;
+  }
+  footer {
+    display: none;
+  }
+  #card {
+    height: 100dvh;
+    width: 100dvw;
+    flex-direction: column;
+    border-radius: 0;
+  }
+  #res-side {
+    height: 50%;
+    width: 100%;
+    border-radius: 0px 0px 30px 30px;
+  }
+  #sum-side {
+    height: 50%;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
