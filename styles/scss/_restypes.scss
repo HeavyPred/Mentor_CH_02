@@ -1,0 +1,42 @@
+@import 'utility.scss';
+
+.reaction {
+    color: $light-red;
+    background: $light-red-back !important;
+}
+
+.memory {
+    color: $orangey-yellow;
+    background: $orangey-yellow-back !important;
+}
+
+.verbal {
+    color: $green-teal;
+    background: $green-teal-back !important;
+}
+
+.visual {
+    color: $cobalt-blue;
+    background: $cobalt-blue-back !important;
+}
+
+.result {
+    padding: 0 10px;
+    margin: 5px 0;
+    font-size: 12px;
+    letter-spacing: normal;
+    font-weight: 700;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div, div > p {
+        display: inline-block;
+    }
+
+    div:last-of-type {
+        color: $dark-gray-blue;
+    }
+}

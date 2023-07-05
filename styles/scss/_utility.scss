@@ -2,9 +2,16 @@
 
 //Colors
 $light-red: hsl(0, 100%, 67%);
+$light-red-back: hsla( 0, 100%, 67%, 5%);
+
 $orangey-yellow: hsl(39, 100%, 56%);
+$orangey-yellow-back: hsla(39, 100%, 56%, 5%);
+
 $green-teal: hsl(166, 100%, 37%);
+$green-teal-back: hsla(166, 100%, 37%, 5%);
+
 $cobalt-blue: hsl(234, 85%, 45%);
+$cobalt-blue-back: hsla(234, 85%, 45%, 5%);
 
 //Gradients
 $grad-back: linear-gradient(hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);

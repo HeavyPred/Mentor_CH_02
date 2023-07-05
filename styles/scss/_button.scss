@@ -1,0 +1,15 @@
+.btn {
+    margin-top: 30px;
+    height: 40px !important;
+
+    background: $dark-gray-blue;
+    color: $white;
+
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background: $grad-back;
+    }
+}
